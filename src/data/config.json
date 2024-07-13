@@ -1,0 +1,55 @@
+{
+  "job": "Web Developer",
+  "name": "Chirag Chaudhary",
+  "desc":"My superpower? Making bugs disappear like magic.",
+  "aboutDesc": "Chirag Chaudhary, a third-year B.Tech CSE student at ITM SLS Baroda University, Committed to delivering high-quality work ,Proficient in building responsive web applications using modern frameworks like ReactJS and Next.js.",
+  "email": "chaudharychirag640@gmail.com",
+  "status": "on",
+  "hireMeLink": "chaudharychirag640@gmail.com",
+  "projects": [
+    {
+      "project-image-url": "../src/assets/vector_photo.jpg",
+      "project-name": "cmd-portfolio",
+      "project-desc": "portfolio offers a terminal-like interface",
+      "project-url": "https://cmd-portfolio-two.vercel.app/"
+    },
+    {
+      "project-image-url": "../src/assets/quiz.png",
+      "project-name": "nextjs-quiz-app",
+      "project-desc": "dynamic quiz application built with Next.js",
+      "project-url": "https://nextjs-quiz-app-chirag-chaudharys-projects.vercel.app/"
+    },
+    {
+      "project-image-url": "../src/assets/invoice.png",
+      "project-name": "invoice-Generator",
+      "project-desc": "ReactJs + BootStrap",
+      "project-url": "https://invoice-generator-iota-nine.vercel.app/"
+    },
+    {
+      "project-image-url": "../src/assets/notes.png",
+      "project-name": "notes-app",
+      "project-desc": "web application for taking and managing notes",
+      "project-url": "https://chirag640.github.io/notes-app/"
+    },
+    {
+      "project-image-url": "../src/assets/typing.png",
+      "project-name": "TypingGame",
+      "project-desc": "Test and improve your typing speed",
+      "project-url": "https://chirag640.github.io/TypingGame/"
+    }
+  ],
+  "social": [
+    {
+      "icon": "FaInstagram",
+      "link": "https://instagram.com/chaudharychirag1910"
+    },
+    {
+      "icon": "FaGithub",
+      "link": "https://github.com/chirag640"
+    },
+    {
+      "icon": "FaLinkedinIn",
+      "link": "https://linkedin.com/in/chiragchaudhary1910"
+    }
+  ]
+}
