@@ -8,31 +8,31 @@
   "hireMeLink": "chaudharychirag640@gmail.com",
   "projects": [
     {
-      "project-image-url": "../src/assets/vector_photo.jpg",
+      "project-image-url": "https://i.imghippo.com/files/EsngO1720977489.jpg",
       "project-name": "cmd-portfolio",
       "project-desc": "portfolio offers a terminal-like interface",
       "project-url": "https://cmd-portfolio-two.vercel.app/"
     },
     {
-      "project-image-url": "../src/assets/quiz.png",
+      "project-image-url": "https://i.imghippo.com/files/BgRQM1720977550.png",
       "project-name": "nextjs-quiz-app",
       "project-desc": "dynamic quiz application built with Next.js",
       "project-url": "https://nextjs-quiz-app-chirag-chaudharys-projects.vercel.app/"
     },
     {
-      "project-image-url": "../src/assets/invoice.png",
+      "project-image-url": "https://i.imghippo.com/files/S8yuX1720977268.png",
       "project-name": "invoice-Generator",
       "project-desc": "ReactJs + BootStrap",
       "project-url": "https://invoice-generator-iota-nine.vercel.app/"
     },
     {
-      "project-image-url": "../src/assets/notes.png",
+      "project-image-url": "https://i.imghippo.com/files/pmZKT1720977524.png",
       "project-name": "notes-app",
       "project-desc": "web application for taking and managing notes",
       "project-url": "https://chirag640.github.io/notes-app/"
     },
     {
-      "project-image-url": "../src/assets/typing.png",
+      "project-image-url": "https://i.imghippo.com/files/ou7tX1720977573.png",
       "project-name": "TypingGame",
       "project-desc": "Test and improve your typing speed",
       "project-url": "https://chirag640.github.io/TypingGame/"
