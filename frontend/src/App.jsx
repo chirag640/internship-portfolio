@@ -1,8 +1,10 @@
-import "./App.css";
-import Navbar from "./components/Navbar";
-import Social from "./components/Social";
-import Footer from "./components/Footer";
-import SiteRoutes from "./routes/SiteRoutes";
+// App.jsx
+
+import React from 'react';
+import Navbar from './components/Navbar';
+import Social from './components/Social';
+import Footer from './components/Footer';
+import SiteRoutes from './routes/SiteRoutes';
 
 function App() {
   return (

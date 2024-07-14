@@ -1,9 +1,12 @@
-import { Route, Routes } from "react-router-dom";
-import Home from "../pages/Home";
-import About from "../pages/About";
-import Projects from "../pages/Projects";
-import Contact from "../pages/Contact";
-import PageNotFound from "../pages/PageNotFound";
+// routes/SiteRoutes.jsx
+
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Home from '../pages/Home';
+import About from '../pages/About';
+import Projects from '../pages/Projects';
+import Contact from '../pages/Contact';
+import PageNotFound from '../pages/PageNotFound';
 
 export default function SiteRoutes() {
   return (

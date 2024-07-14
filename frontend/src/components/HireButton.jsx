@@ -1,7 +1,5 @@
 import React from "react";
-import { getConfigData } from "../data/configReader";
 const HireButton = () => {
-  const configData = getConfigData();
   return (
     <div>
       <a href="/contact">
