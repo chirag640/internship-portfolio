@@ -3,6 +3,7 @@ import CopyEmailButton from "../components/CopyEmailButton";
 import HireButton from "../components/HireButton";
 import { getConfigData } from "../data/configReader";
 
+
 export default function About() {
   const configData = getConfigData();
   return (
@@ -33,9 +34,10 @@ export default function About() {
       <div className="flex flex-col flex-col-reverse md:flex md:flex-row md:items-center justify-center py-8">
         <div className="flex flex-col gap-y-2">
           <div className="flex items-center text-center md:text-justify justify-center md:justify-normal">
-            <HireButton/>
+            <HireButton />
             <CopyEmailButton />
           </div>
+          
         </div>
       </div>
     </>
