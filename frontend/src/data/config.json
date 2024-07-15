@@ -51,5 +51,20 @@
       "icon": "FaLinkedinIn",
       "link": "https://linkedin.com/in/chiragchaudhary1910"
     }
+  ],
+  "resume": {
+    "pdfUrl": "https://pdfupload.io/docs/5fa536f9",
+    "timeline": [
+    {
+      "title": "Technohacks Intern",
+      "period": "Jan 2024 - Feb 2024",
+      "description": "Worked on various tech projects and gained hands-on experience in web development."
+    },
+    {
+      "title": "AWS Student Club Web Tech Team Member",
+      "period": "2024",
+      "description": "Contributed to web development projects and collaborated with team members on AWS-related tasks."
+    }
   ]
+  }
 }

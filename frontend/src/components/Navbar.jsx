@@ -1,9 +1,7 @@
 import { NavLink } from "react-router-dom";
-import { getConfigData } from "../data/configReader";
 import HireButton from "./HireButton";
 
 export default function Navbar() {
-  const configData = getConfigData();
 
   return (
     <>
@@ -79,6 +77,29 @@ export default function Navbar() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z"
+                  />
+                </svg>
+              </NavLink>
+              <NavLink
+                to="/resume"
+                className={({ isActive }) =>
+                  isActive
+                    ? "bg-background-color rounded-full p-2 transition-all duration-300"
+                    : "opacity-50 p-2 hover:bg-background-color rounded-full transition-all duration-300 hover:opacity-100"
+                }
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className="w-7 h-7 text-primary-color"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M19.5 11.25h-6M12 15h7.5M21 21.75H3a1.5 1.5 0 01-1.5-1.5v-15a1.5 1.5 0 011.5-1.5h5.25L10.5 3h3l2.25 1.5H21a1.5 1.5 0 011.5 1.5v15a1.5 1.5 0 01-1.5 1.5z"
                   />
                 </svg>
               </NavLink>
