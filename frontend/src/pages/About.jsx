@@ -3,9 +3,9 @@ import CopyEmailButton from "../components/CopyEmailButton";
 import HireButton from "../components/HireButton";
 import { getConfigData } from "../data/configReader";
 
-
 export default function About() {
   const configData = getConfigData();
+
   return (
     <>
       <div className="px-7 py-7">
@@ -28,7 +28,7 @@ export default function About() {
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-3xl font-semibold">Let's work together.</h1>
         <p className="text-md font-normal text-gray-500 text-center px-3">
-          Creating user experience and visual appealing design
+          Creating user experience and visually appealing designs.
         </p>
       </div>
       <div className="flex flex-col flex-col-reverse md:flex md:flex-row md:items-center justify-center py-8">
@@ -37,7 +37,6 @@ export default function About() {
             <HireButton />
             <CopyEmailButton />
           </div>
-          
         </div>
       </div>
     </>

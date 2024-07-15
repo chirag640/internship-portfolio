@@ -20,17 +20,17 @@ export default function Projects({ limit }) {
     : "w-6 h-6 text-blue-300";
 
   return (
-    <div className="px-2 ">
-      <div className="flex flex-col bg-[#f0f8ff] rounded-lg px-5 py-5">
+    <div className="px-2 dark:bg-gray-800 py-5">
+      <div className="flex flex-col bg-[#f0f8ff] rounded-lg px-5 py-5 dark:bg-gray-800">
         <div className="flex items-center justify-between mb-5">
           <div className="font-medium text-lg flex items-center gap-x-2">
-            <div className="w-1.5 h-1.5 bg-blue-400 rounded-full"></div>
-            Projects
+            
+            
           </div>
           <a
             href="/projects"
             type="button"
-            className="gap-x-2 text-blue-900 bg-white border border-blue-200 hover:border-blue-300 transition-all duration-300 focus:ring-4 focus:ring-blue-100 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center"
+            className="gap-x-2 text-blue-900 bg-white border dark:bg-dark-background-color dark:text-white border-blue-200 hover:border-blue-300 transition-all duration-300 focus:ring-4 focus:ring-blue-100 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center"
           >
             View All
             <svg
@@ -49,18 +49,18 @@ export default function Projects({ limit }) {
             </svg>
           </a>
         </div>
-        <div className="flex flex-col ">
+        <div className="flex flex-col">
           {projects.map((project, index) => (
             <a
               key={index}
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
-              className="drop-shadow-md card bg-white rounded-lg px-5 py-3 gap-x-3 flex flex-col md:flex-none md:flex-row hover:-translate-y-1 hover:scale-100 duration-300 transition ease-in-out delay-150 hover:shadow-sm border border-blue-200 hover:border-blue-300"
+              className="drop-shadow-md card bg-white dark:bg-dark-background-color dark:text-dark-text-color rounded-lg px-5 py-3 my-2 gap-x-3 flex flex-col md:flex-none md:flex-row hover:-translate-y-1 hover:scale-100 duration-300 transition ease-in-out delay-150 hover:shadow-sm border border-blue-200 hover:border-blue-300"
               href={project["project-url"]}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="rounded-full overflow-hidden flex items-center justify-center border border-blue-200 hidden md:block ">
+              <div className="rounded-full overflow-hidden flex items-center justify-center border border-blue-200 hidden md:block">
                 <div className="card-image w-16 h-16 rounded-full overflow-hidden">
                   <img
                     className="w-full h-full object-cover"
@@ -70,7 +70,7 @@ export default function Projects({ limit }) {
                 </div>
               </div>
               <div className="flex flex-col justify-center">
-                <h1 className="font-medium text-lg text-blue-900">
+                <h1 className="font-medium text-lg text-blue-900 dark:text-dark-text-color">
                   {project["project-name"]}
                 </h1>
                 <p className="text-blue-500 text-md">

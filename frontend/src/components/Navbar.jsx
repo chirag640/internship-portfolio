@@ -1,8 +1,9 @@
+import React from "react";
 import { NavLink } from "react-router-dom";
 import HireButton from "./HireButton";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
-
   return (
     <>
       <header className="py-2 px-2 fixed top-0 left-0 w-full z-40">
@@ -80,6 +81,7 @@ export default function Navbar() {
                   />
                 </svg>
               </NavLink>
+
               <NavLink
                 to="/resume"
                 className={({ isActive }) =>
@@ -104,8 +106,9 @@ export default function Navbar() {
                 </svg>
               </NavLink>
             </div>
-            <div className="justify-center">
-              <HireButton/>
+            <div className="flex items-center gap-x-3">
+              <HireButton />
+              <ThemeToggle />
             </div>
           </nav>
         </div>
