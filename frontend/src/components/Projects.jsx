@@ -60,7 +60,7 @@ export default function Projects({ limit }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="rounded-full overflow-hidden flex items-center justify-center border border-blue-200 hidden md:block">
+              <div className="overflow-hidden flex items-center gap-x-3">
                 <div className="card-image w-16 h-16 rounded-full overflow-hidden">
                   <img
                     className="w-full h-full object-cover"
@@ -68,7 +68,6 @@ export default function Projects({ limit }) {
                     alt={project["project-name"]}
                   />
                 </div>
-              </div>
               <div className="flex flex-col justify-center">
                 <h1 className="font-medium text-lg text-blue-900 dark:text-dark-text-color">
                   {project["project-name"]}
@@ -76,6 +75,7 @@ export default function Projects({ limit }) {
                 <p className="text-blue-500 text-md">
                   {project["project-desc"]}
                 </p>
+              </div>
               </div>
               <button className="ml-auto hidden md:inline-block">
                 <svg

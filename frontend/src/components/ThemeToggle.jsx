@@ -8,7 +8,7 @@ const ThemeToggle = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="relative inline-flex items-center h-6 rounded-full w-11 focus:outline-none mr-2"
+      className="relative inline-flex items-center h-6 rounded-full w-11 focus:outline-none mr-4"
     >
       <span className="sr-only">Toggle Theme</span>
       <span

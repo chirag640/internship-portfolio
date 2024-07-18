@@ -29,11 +29,11 @@ export default function Profile() {
         <div className={workStatusTextClass}>
           <div className="text-sm font-medium flex items-center gap-x-1">
             <div className={workStatusClass}></div>
-            <span className="hidden md:block">{workStatusText}</span>
+            <span className="text-xs">{workStatusText}</span>
           </div>
         </div>
       </div>
-      <div className="px-7 py-7 mt-4 flex flex-col flex-col-reverse md:flex md:flex-row md:items-center md:justify-between pt-3 dark:bg-gray-800">
+      <div className="px-7 py-7 mt-4 flex flex-col-reverse md:flex md:flex-row md:items-center md:justify-between pt-3 dark:bg-gray-800">
         <div className="flex flex-col gap-y-2">
           <h1 className="text-3xl md:text-3xl font-semibold text-center md:text-justify tracking-tighter text-[#003366] dark:text-white transition-all duration-300">
             I'm {configData.name}

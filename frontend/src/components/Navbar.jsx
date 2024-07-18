@@ -106,7 +106,7 @@ export default function Navbar() {
                 </svg>
               </NavLink>
             </div>
-            <div className="flex items-center gap-x-3">
+            <div className="flex items-center">
               <HireButton />
               <ThemeToggle />
             </div>
