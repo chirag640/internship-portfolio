@@ -5,37 +5,56 @@
   "aboutDesc": "Chirag Chaudhary, a third-year B.Tech CSE student at ITM SLS Baroda University, Committed to delivering high-quality work ,Proficient in building responsive web applications using modern frameworks like ReactJS and Next.js.",
   "email": "chaudharychirag640@gmail.com",
   "status": "on",
-  "hireMeLink": "chaudharychirag640@gmail.com",
-  "projects": [
+  "hireMeLink": "chaudharychirag640@gmail.com",  "projects": [
     {
-      "project-image-url": "https://i.imghippo.com/files/EsngO1720977489.jpg",
       "project-name": "cmd-portfolio",
       "project-desc": "portfolio offers a terminal-like interface",
-      "project-url": "https://cmd-portfolio-two.vercel.app/"
+      "project-url": "https://cmd-portfolio-two.vercel.app/",
+      "language": "JavaScript",
+      "languageColor": "#f7df1e",
+      "stars": 15,
+      "forks": 3,
+      "githubUrl": "https://github.com/chirag640/cmd-portfolio"
     },
     {
-      "project-image-url": "https://i.imghippo.com/files/BgRQM1720977550.png",
       "project-name": "nextjs-quiz-app",
       "project-desc": "dynamic quiz application built with Next.js",
-      "project-url": "https://nextjs-quiz-app-chirag-chaudharys-projects.vercel.app/"
+      "project-url": "https://nextjs-quiz-app-chirag-chaudharys-projects.vercel.app/",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 8,
+      "forks": 2,
+      "githubUrl": "https://github.com/chirag640/nextjs-quiz-app"
     },
     {
-      "project-image-url": "https://i.imghippo.com/files/S8yuX1720977268.png",
       "project-name": "invoice-Generator",
       "project-desc": "ReactJs + BootStrap",
-      "project-url": "https://invoice-generator-iota-nine.vercel.app/"
+      "project-url": "https://invoice-generator-iota-nine.vercel.app/",
+      "language": "React",
+      "languageColor": "#61dafb",
+      "stars": 12,
+      "forks": 5,
+      "githubUrl": "https://github.com/chirag640/invoice-Generator"
     },
     {
-      "project-image-url": "https://i.imghippo.com/files/pmZKT1720977524.png",
       "project-name": "notes-app",
       "project-desc": "web application for taking and managing notes",
-      "project-url": "https://chirag640.github.io/notes-app/"
+      "project-url": "https://chirag640.github.io/notes-app/",
+      "language": "JavaScript",
+      "languageColor": "#f7df1e",
+      "stars": 6,
+      "forks": 1,
+      "githubUrl": "https://github.com/chirag640/notes-app"
     },
     {
-      "project-image-url": "https://i.imghippo.com/files/ou7tX1720977573.png",
       "project-name": "TypingGame",
       "project-desc": "Test and improve your typing speed",
-      "project-url": "https://chirag640.github.io/TypingGame/"
+      "project-url": "https://chirag640.github.io/TypingGame/",
+      "language": "HTML",
+      "languageColor": "#e34c26",
+      "stars": 4,
+      "forks": 0,
+      "githubUrl": "https://github.com/chirag640/TypingGame"
     }
   ],
   "social": [
@@ -53,8 +72,13 @@
     }
   ],
   "resume": {
-    "pdfUrl": "https://pdfupload.io/docs/5fa536f9",
+    "pdfUrl": "https://jmp.sh/VTvMTGMf",
     "timeline": [
+    {
+      "title": "Flutter Intern",
+      "period": "May 2025 - Aug 2025",
+      "description": "Developed mobile applications using Flutter, focusing on performance and user experience."
+    },
     {
       "title": "Technohacks Intern",
       "period": "Jan 2024 - Feb 2024",
@@ -62,7 +86,7 @@
     },
     {
       "title": "AWS Student Club Web Tech Team Member",
-      "period": "Sep 2023-Present",
+      "period": "Sep 2023-Sep 2024",
       "description": "Contributed to web development projects and collaborated with team members on AWS-related tasks."
     }
   ]
